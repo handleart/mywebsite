@@ -11,3 +11,8 @@ test:
   database: mywebsite.test
   pool: 5
   username: amostofi
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
